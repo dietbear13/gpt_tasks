@@ -12,7 +12,7 @@ df = pd.read_excel("topics.xlsx")  #
 
 openai.api_key = "sk-vc****i"  # Ставим свой ключ
 creds = Credentials.from_service_account_file('***.json')  # Кидаем api-ключ google в папку со скриптом и заполняем имя файла
-folder_id = '1kXPbraZPgTzW2zNKGNDOKn2-KUkuGtJQ'  # ID папки в Google Docs
+folder_id = '1kXPbr*****uGtJQ'  # ID папки в Google Docs
 
 model = "gpt-3.5-turbo"  # Ставим нужную модель
 
